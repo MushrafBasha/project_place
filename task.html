@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Grand Opening Poster</title>
+<style>
+  body {
+    margin: 0;
+    background:linear-gradient(135deg,rgb(24, 4, 250),#1c5326d2);
+    font-family: sans-serif;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .welcome {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #d1e4a1;
+  }
+
+  .title {
+    font-size: 72px;
+    font-weight: 1000;
+    color: #d4af37;
+    text-shadow: 2px 2px 8px #6f5309;
+    margin: 0;
+  }
+
+  .subtitle {
+    font-size: 22px;
+    margin: 10px 0 25px;
+    color: #d1e4a1;
+    letter-spacing: 2px;
+  }
+  .offer {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+  }
+
+  .button{
+    background-color: #b58e0a;
+    color: white;
+    padding: 12px 28px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #bfd100;
+    transition: background-color 0.3s ease;
+  }
+ .button:hover {
+    background-color: #d4af37;
+  }
+  .sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px white,0 0 10px 4px #f6f1a5;
+    animation: sparkleAnim 2s infinite ease-in-out alternate;
+  }
+    .sparkle1 { top: 30px; left: 150px; animation-delay: 0s; }
+  .sparkle2 { top: 100px; left: 400px; animation-delay: 0.5s; }
+  .sparkle3 { top: 250px; left: 300px; animation-delay: 1s; }
+  .sparkle4 { top: 30px; right: 150px; animation-delay: 0s; }
+  .sparkle5 { top: 100px; right: 400px; animation-delay: 0.5s; }
+ 
+
+
+</style>
+</head>
+<body>
+  <div class="poster">
+     <div class="sparkle sparkle1"></div>
+    <div class="sparkle sparkle2"></div>
+    <div class="sparkle sparkle3"></div>
+    <div class="sparkle sparkle4"></div>
+    <div class="sparkle sparkle5"></div>
+   <center><div class="welcome">WELCOME TO</div></center>
+    <center><h1 class="title">GRAND<br>OPENING</h1></center>
+    <center><div class="subtitle">AUGUST 8TH</div></center>
+   <center><div class="offer">50% OFF</div></center>
+   <center><button class="button">SHOP NOW</button></center>
+  </div>
+</body>
+</html>
